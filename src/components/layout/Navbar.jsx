@@ -16,10 +16,10 @@ const Navbar = () => {
           <div className="hidden md:flex space-x-8 items-center">
             <a href="#features" className="text-slate-600 hover:text-emerald-600 font-medium transition-colors">Features</a>
             <a href="#how-it-works" className="text-slate-600 hover:text-emerald-600 font-medium transition-colors">How it works</a>
-            <button className="flex items-center gap-2 text-slate-500 hover:text-slate-800 font-medium transition-colors border border-slate-200 px-4 py-2 rounded-full hover:bg-white hover:shadow-sm">
+            <a href="https://admin.botdoct.com/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-slate-500 hover:text-slate-800 font-medium transition-colors border border-slate-200 px-4 py-2 rounded-full hover:bg-white hover:shadow-sm">
               <UserCog size={18} />
               Admin Login
-            </button>
+            </a>
           </div>
           {/* Mobile Menu Button */}
           <div className="md:hidden flex items-center">
@@ -34,10 +34,10 @@ const Navbar = () => {
         <div className="md:hidden glass border-t border-white/50 px-4 py-6 space-y-4 shadow-lg absolute w-full left-0 bg-white/95 backdrop-blur-md">
           <a href="#features" onClick={() => setIsOpen(false)} className="block text-slate-600 font-medium hover:text-emerald-600">Features</a>
           <a href="#how-it-works" onClick={() => setIsOpen(false)} className="block text-slate-600 font-medium hover:text-emerald-600">How it works</a>
-          <button className="flex w-full items-center gap-2 text-slate-700 font-medium border border-slate-200 px-4 py-2 rounded-full hover:bg-slate-50 mt-4 justify-center">
+          <a href="https://admin.botdoct.com/" target="_blank" rel="noopener noreferrer" className="flex w-full items-center gap-2 text-slate-700 font-medium border border-slate-200 px-4 py-2 rounded-full hover:bg-slate-50 mt-4 justify-center">
             <UserCog size={18} />
             Admin Login
-          </button>
+          </a>
         </div>
       )}
     </nav>

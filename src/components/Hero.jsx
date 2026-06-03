@@ -14,22 +14,22 @@ const Hero = () => (
             </span>
             Available 24/7 on WhatsApp
           </div>
-          
+
           <h1 className="text-5xl lg:text-7xl font-extrabold text-slate-800 leading-[1.1] mb-6 tracking-tight">
             Book doctors <br className="hidden lg:block" />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 via-teal-500 to-cyan-500">
-              in 5 seconds.
+              in 10 seconds.
             </span>
           </h1>
-          
+
           <p className="text-lg lg:text-xl text-slate-600 mb-10 leading-relaxed font-light">
             Skip the waiting room. Find specialists, schedule visits, and manage your appointments instantly—all from your favorite messaging app.
           </p>
-          
+
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
             <div className="relative group">
               <div className="absolute -inset-1 bg-gradient-to-r from-emerald-500 to-cyan-500 rounded-full blur opacity-40 group-hover:opacity-75 transition duration-300 group-hover:duration-200"></div>
-              <a 
+              <a
                 href="https://wa.me/+14472272513"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -47,14 +47,14 @@ const Hero = () => (
         <div className="relative mx-auto w-full max-w-[280px] lg:ml-auto">
           {/* Decorative background behind phone */}
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-gradient-to-tr from-emerald-100 to-cyan-50 rounded-full blur-3xl -z-10"></div>
-          
-          <div 
+
+          <div
             className="relative bg-white rounded-[2.5rem] border-[8px] border-slate-900 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] h-[540px] w-full overflow-hidden flex flex-col ring-1 ring-slate-900/10"
             style={{ animation: 'float 6s ease-in-out infinite' }}
           >
             {/* Phone Notch */}
             <div className="absolute top-0 inset-x-0 h-6 bg-slate-900 rounded-b-2xl w-32 mx-auto z-30"></div>
-            
+
             {/* WhatsApp Header area (covers status bar too for immersive look) */}
             <div className="bg-[#075e54] pt-8 pb-3 px-4 flex items-center gap-3 text-white z-20 shadow-md">
               <div className="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center shrink-0">
@@ -65,39 +65,48 @@ const Hero = () => (
                 <p className="text-[11px] text-white/80 truncate">Official Business Account</p>
               </div>
             </div>
-            
+
             {/* Chat Area */}
             <div className="flex-1 bg-[#efeae2] px-4 py-3 flex flex-col gap-2.5 overflow-hidden relative bg-[url('https://i.pinimg.com/736x/8c/98/99/8c98994518b575bfd8c949e91d20548b.jpg')] bg-cover bg-center bg-blend-soft-light">
               <div className="text-center my-2">
                 <span className="bg-[#e1f3fb] text-slate-600 text-[11px] font-medium px-3 py-1 rounded-lg shadow-sm">Today</span>
               </div>
-              
-              <div className="bg-white p-3 rounded-2xl rounded-tl-none text-sm text-slate-800 shadow-sm self-start max-w-[85%] relative">
-                Hi! Welcome to DocBot 👋 What can I help you with today?
+
+              <div className="bg-white p-3 rounded-xl rounded-tl-none text-sm text-slate-800 shadow-sm self-start max-w-[85%] relative">
+                Welcome to Doc Appointment Assistant. What's your name?
                 <span className="text-[10px] text-slate-400 block text-right mt-1">9:41 AM</span>
               </div>
-              
+
               <div className="bg-[#dcf8c6] p-3 rounded-2xl rounded-tr-none text-sm text-slate-800 shadow-sm self-end max-w-[85%] relative">
-                I need an appointment with a Cardiologist.
-                <span className="text-[10px] text-teal-600 block text-right mt-1">9:42 AM ✓✓</span>
+
+                Jitendra Singh              <span className="text-[10px] text-teal-600 block text-right mt-1">9:42 AM ✓✓</span>
               </div>
-              
-              <div className="bg-white p-3 rounded-2xl rounded-tl-none text-sm text-slate-800 shadow-sm self-start max-w-[85%] relative">
-                I found Dr. Sarah Jenkins. She has an opening tomorrow at 10:00 AM. Would you like me to book it?
-                <span className="text-[10px] text-slate-400 block text-right mt-1">9:42 AM</span>
+
+              <div className="bg-white p-3 rounded-xl rounded-tl-none text-sm text-slate-800 shadow-sm self-start max-w-[85%] relative">
+                What would you like to do next?
+                <br></br>
+                1. Book appointment
+                <br></br>
+                2. Reschedule appointment
+                <br></br>
+                3. Cancel appointment
+                <br></br>
+                4. View my appointments
+
+                Reply with number                <span className="text-[10px] text-slate-400 block text-right mt-1">9:42 AM</span>
               </div>
-              
+
               <div className="bg-[#dcf8c6] p-3 rounded-2xl rounded-tr-none text-sm text-slate-800 shadow-sm self-end max-w-[85%] relative">
                 Yes, please!
                 <span className="text-[10px] text-teal-600 block text-right mt-1">9:43 AM ✓✓</span>
               </div>
-              
+
               <div className="bg-white p-3 rounded-2xl rounded-tl-none text-sm text-slate-800 shadow-sm self-start max-w-[85%] relative">
                 ✅ Done! Your appointment is confirmed for tomorrow at 10:00 AM. I've sent a Google Calendar invite to your email.
                 <span className="text-[10px] text-slate-400 block text-right mt-1">9:43 AM</span>
               </div>
             </div>
-            
+
             {/* Input Area */}
             <div className="bg-[#f0f0f0] p-3 flex items-center gap-2 z-20">
               <div className="flex-1 bg-white rounded-full h-10 px-4 flex items-center text-slate-400 text-sm shadow-sm border border-slate-200">
@@ -107,7 +116,7 @@ const Hero = () => (
                 <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
               </div>
             </div>
-            
+
             {/* Home indicator */}
             <div className="h-1 bg-slate-900 w-1/3 rounded-full absolute bottom-2 left-1/2 -translate-x-1/2 z-30"></div>
           </div>
