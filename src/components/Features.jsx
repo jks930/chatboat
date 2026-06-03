@@ -27,11 +27,11 @@ const Features = () => {
     <section id="features" className="py-24 relative z-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-teal-600 font-semibold tracking-wide uppercase text-sm mb-2">Why Choose DocBot</h2>
+          <h2 className="text-teal-600 font-semibold tracking-wide uppercase text-sm mb-2">Why Choose BotDoct</h2>
           <h3 className="text-3xl md:text-4xl font-bold text-slate-800 mb-4">Healthcare management, simplified</h3>
           <p className="text-slate-600 text-lg">We've removed the friction from booking doctor visits. Everything you need is right in your pocket.</p>
         </div>
-        
+
         <div className="grid md:grid-cols-3 gap-8">
           {features.map((f, i) => (
             <div key={i} className="p-8 rounded-3xl border border-white/50 bg-white/60 backdrop-blur-md shadow-xl shadow-slate-200/20 hover:shadow-2xl hover:shadow-slate-200/40 transition-all group">

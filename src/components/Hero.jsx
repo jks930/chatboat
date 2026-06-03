@@ -58,10 +58,10 @@ const Hero = () => (
             {/* WhatsApp Header area (covers status bar too for immersive look) */}
             <div className="bg-[#075e54] pt-8 pb-3 px-4 flex items-center gap-3 text-white z-20 shadow-md">
               <div className="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center shrink-0">
-                <img src="/logo.jpg" className="w-8 h-8 rounded-full object-cover bg-white" alt="DocBot" />
+                <img src="/logo.jpg" className="w-8 h-8 rounded-full object-cover bg-white" alt="BotDoct" />
               </div>
               <div className="flex-1 min-w-0">
-                <h3 className="font-semibold text-base truncate leading-tight">DocBot</h3>
+                <h3 className="font-semibold text-base truncate leading-tight">BotDoct</h3>
                 <p className="text-[11px] text-white/80 truncate">Official Business Account</p>
               </div>
             </div>

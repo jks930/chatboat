@@ -9,8 +9,8 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center gap-3">
-            <img   src={`${import.meta.env.BASE_URL}logo.jpg`}   alt="Logo"   className="h-10 w-auto rounded-lg object-contain" />
-            <span className="font-bold text-2xl tracking-tight text-slate-800">DocBot</span>
+            <img src={`${import.meta.env.BASE_URL}logo.jpg`} alt="Logo" className="h-10 w-auto rounded-lg object-contain" />
+            <span className="font-bold text-2xl tracking-tight text-slate-800">BotDoct</span>
           </div>
           {/* Desktop Nav */}
           <div className="hidden md:flex space-x-8 items-center">
